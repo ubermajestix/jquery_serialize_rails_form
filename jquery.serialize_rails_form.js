@@ -3,7 +3,7 @@
  * http://github.com/ubermajestix/jquery_serialize_rails_form
  * 
  * Copyright (c) 2011 Tyler Montgomery
- * Licensed under the "do what the f**k you want with it"(tm) license
+ * Licensed under the DoWhatYouWantWithIt™ license.
  */
 
 // Based on serializeObject (http://benalman.com/projects/jquery-misc-plugins/)
@@ -22,10 +22,10 @@
 // Returns a nested hash representation of your rails form.
 (function($,undefined){
   '$:nomunge'; // Used by YUI compressor.
-  
+
   $.fn.serializeRailsForm = function(){
     var attrs = {};
-    
+
     $.each( this.serializeArray(), function(i,o){
       var attribute, match, object, _name;
       var key   = o.name,
